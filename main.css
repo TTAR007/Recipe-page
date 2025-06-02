@@ -14,11 +14,14 @@ body {
 
     position: relative;
 
+    background-color: wheat;
+
     font-family: Outfit, Arial, Helvetica, sans-serif;
 }
 
 main {
     max-width: 720px;
+    background-color: white;
 }
 
 #Omelette {
@@ -181,5 +184,13 @@ section {
         .image-omelette {
             border-radius: 0.5rem;
         }
+    }
+
+    body {
+        padding: 1rem 0;
+    }
+
+    main {
+        border-radius: 0.8rem;
     }
 }
